@@ -57,5 +57,6 @@ Further research is recommended to explore other variables that might affect the
 
 ## How to Run This Project
 [https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4](https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4/blob/main/Halchuk_GPT_time.ipynb)
+https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4
 ### Requirements
 Ensure you have Python installed, along with the necessary libraries:

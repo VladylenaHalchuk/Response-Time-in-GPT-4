@@ -30,11 +30,17 @@ The dataset used in this analysis is named `total_tokens_vs_invoke_chain_time.cs
 1. **Scatter Plot**: Showcases the relationship between token count and response time.
    ![Scater_Plot](https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4/assets/112247563/f677eff7-1635-4941-b24d-6a8e558e1b16)
 
-2. **Regression Plot**: Demonstrates the trend and variability in response time with increasing tokens.
+   Concentration of points suggests shorter response times for queries with fewer tokens.
+   As token count increases, response times show greater variability.
+3. **Regression Plot**: Demonstrates the trend and variability in response time with increasing tokens.
    ![Regression_Plot](https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4/assets/112247563/c8c4a8a7-0e21-4cf8-bc78-7503af0ae722)
 
-3. **Bar Plot**: Average response times segmented into quartiles based on token count.
+   A positive trend line indicates response times tend to increase with more tokens.
+   The wide confidence interval at higher token counts suggests more variability.
+5. **Bar Plot**: Average response times segmented into quartiles based on token count.
    ![Bar_Plot](https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4/assets/112247563/128afb4c-dca1-488f-b4c7-c7e784a9dc87)
+
+   Quartile analysis does not show a consistent increase in response time with token count.
 
 
 ### Key Findings
@@ -50,6 +56,6 @@ The findings suggest that the number of tokens does impact response time but not
 Further research is recommended to explore other variables that might affect the response time of GPT-4. Reducing the number of tokens alone may not significantly enhance response efficiency.
 
 ## How to Run This Project
-https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4
+[https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4](https://github.com/VladylenaHalchuk/Response-Time-in-GPT-4/blob/main/Halchuk_GPT_time.ipynb)
 ### Requirements
 Ensure you have Python installed, along with the necessary libraries:
